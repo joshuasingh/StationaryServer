@@ -1,0 +1,40 @@
+{
+  "name": "stationarserv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd ../TempReact/my-app  && npm run build",
+    "install-client": "cd ../TempReact/my-app && npm install",
+    "heroku-postbuild": "npm run install-client && npm run build",
+    "start": "node index.js",
+    "client": "cd ../TempReact/my-app && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuasingh/StationaryServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshuasingh/StationaryServer/issues"
+  },
+  "homepage": "https://github.com/joshuasingh/StationaryServer#readme",
+  "dependencies": {
+    "aws-sdk": "^2.704.0",
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "child_process": "^1.0.2",
+    "consolidate": "^0.15.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "mongodb": "^3.5.7",
+    "mysql": "^2.18.1",
+    "natural": "^2.1.5",
+    "path": "^0.12.7",
+    "ws": "^7.3.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "open": {
+    "host": "sql12.freemysqlhosting.net",
+    "DBname": "sql12343511",
+    "Username": "sql12343511",
+    "Password": "26M5NUb9pY"
+  },
+  "local": {
+    "host": "localhost",
+    "DBname": "stationary",
+    "Username": "root",
+    "Password": "root1234"
+  }
+}
